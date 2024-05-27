@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2A2C37"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="top"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="115dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/inter_semibold"
+                android:text="ИГРОВЫЕ"
+                android:textColor="#FFFFFF"
+                android:textSize="33sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="80dp"
+                android:gravity="center"
+                android:fontFamily="@font/inter_semibold"
+                android:text="ВИДЕОКАРТЫ"
+                android:textColor="#42FC00"
+                android:textSize="33sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="33dp"
+            android:layout_marginTop="80dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_light"
+                    android:gravity="center_horizontal"
+                    android:text="МЕНЮ"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="40dp" />
+
+                <TextView
+                    android:id="@+id/idCatalogButton"
+                    android:layout_width="320dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_rounded_menu"
+                    android:fontFamily="@font/inter_light"
+                    android:gravity="center"
+                    android:text="Каталог"
+                    android:textColor="@color/black"
+                    android:textSize="45dp" />
+
+                <TextView
+                    android:id="@+id/idCartButton"
+                    android:layout_width="320dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_rounded_menu"
+                    android:fontFamily="@font/inter_light"
+                    android:gravity="center"
+                    android:text="Корзина"
+                    android:textColor="@color/black"
+                    android:textSize="45dp" />
+
+                <TextView
+                    android:id="@+id/idInfoButton"
+                    android:layout_width="320dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_rounded_menu"
+                    android:fontFamily="@font/inter_light"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="О магазине"
+                    android:textColor="@color/black"
+                    android:textSize="45dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="120dp"
+            android:fontFamily="@font/inter_semibold"
+            android:text="VIDEOSTORE"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20dp"
+    android:orientation="vertical"
+    android:background="#2A2C37"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/idCatListName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="40dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        />
+
+    <ImageView
+        android:id="@+id/idCatListImage"
+        android:layout_width="wrap_content"
+        android:layout_height="285dp"
+        app:srcCompat="@drawable/big1060" />
+
+    <TextView
+        android:id="@+id/idCatListDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/idCatListPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textColor="#42FC00"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/idButtonDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Подробнее"
+        android:background="@drawable/shape_rounded_details"
+        android:textColor="@color/black"
+        android:fontFamily="@font/inter"
+        android:layout_marginHorizontal="40dp"
+        />
+</LinearLayout>
